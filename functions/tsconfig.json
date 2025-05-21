@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // Node 18 soporta ES2020
+    "module": "commonjs",              // requerido por Firebase Functions
+    "rootDir": "src",                  // .ts viven en src/
+    "outDir": "lib",                   // compilado va a lib/
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "sourceMap": true                  // opcional, útil para debugging
+  },
+  "include": ["src/**/*.ts"],          // compila todo bajo src/
+  "exclude": ["node_modules", "lib"]   // ignora node_modules y la salida
+}

@@ -1,0 +1,42 @@
+buildscript {
+    ext.kotlin_version = '1.8.10' // Actualizado a 1.8.10 (versión estable)
+    
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1' // Actualizado a 7.3.1
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter() // Mantener solo si algún plugin lo requiere
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+    
+    if (project.name == 'app') {
+        project.configurations.all {
+            resolutionStrategy {
+                force 'com.google.android.material:material:1.9.0'
+            }
+        }
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

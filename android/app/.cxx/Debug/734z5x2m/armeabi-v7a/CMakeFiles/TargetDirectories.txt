@@ -1,0 +1,2 @@
+/home/jeremie/mk_mesenger/android/app/.cxx/Debug/734z5x2m/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/jeremie/mk_mesenger/android/app/.cxx/Debug/734z5x2m/armeabi-v7a/CMakeFiles/rebuild_cache.dir

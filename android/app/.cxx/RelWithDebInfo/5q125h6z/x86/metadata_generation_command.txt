@@ -1,0 +1,20 @@
+                        -H/home/jeremie/snap/flutter/common/flutter/packages/flutter_tools/gradle/src/main/groovy
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/home/jeremie/Android/Sdk/ndk/25.2.9519653
+-DCMAKE_ANDROID_NDK=/home/jeremie/Android/Sdk/ndk/25.2.9519653
+-DCMAKE_TOOLCHAIN_FILE=/home/jeremie/Android/Sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/jeremie/Android/Sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/jeremie/mk_mesenger/build/app/intermediates/cxx/RelWithDebInfo/5q125h6z/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/jeremie/mk_mesenger/build/app/intermediates/cxx/RelWithDebInfo/5q125h6z/obj/x86
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/home/jeremie/mk_mesenger/android/app/.cxx/RelWithDebInfo/5q125h6z/x86
+-GNinja
+-Wno-dev
+--no-warn-unused-cli
+                        Build command args: []
+                        Version: 2

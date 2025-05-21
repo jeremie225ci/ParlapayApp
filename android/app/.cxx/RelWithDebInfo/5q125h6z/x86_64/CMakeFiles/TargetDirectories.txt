@@ -1,0 +1,2 @@
+/home/jeremie/mk_mesenger/android/app/.cxx/RelWithDebInfo/5q125h6z/x86_64/CMakeFiles/edit_cache.dir
+/home/jeremie/mk_mesenger/android/app/.cxx/RelWithDebInfo/5q125h6z/x86_64/CMakeFiles/rebuild_cache.dir
