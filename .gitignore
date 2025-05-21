@@ -104,3 +104,8 @@ coverage/
 *.swp
 *.swo
 *~
+
+# New additions
+functions/firebase-admin
+functions/firebase-functions
+android/app/src/main/res/raw/ring.mp3
